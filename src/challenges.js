@@ -14,10 +14,15 @@ function splitSentence(string) {
 };
 
 // Desafio 4
-function concatName() {
+function concatName(arr) {
+  let name1 = arr[0];
     
+  let name2 = arr.lenght-1;
+    
+  let junta = arr[arr.length -1]
+    
+  return `${junta}, ${name1}`;
 }
-
 // Desafio 5
 function footballPoints() {
   // seu código aqui
