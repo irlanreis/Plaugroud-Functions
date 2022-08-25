@@ -14,15 +14,14 @@ function splitSentence(string) {
 };
 
 // Desafio 4
-function concatName(arr) {
-  let name1 = arr[0]; 
-  let name2 = arr.lenght-1;
-  let junta = arr[name2];
-  return `${junta}, ${name1}`;
+function concatName(arr) {   
+    let name1 = arr[0];   
+    let name2 = arr.lenght-1;  
+    let junta = arr[arr.length -1] 
+    return `${junta}, ${name1}`;
 }
 // Desafio 5
 function footballPoints(wins , ties) {
-
     let vitorias = wins * 3;
     let empates =  ties * 1;
     let pontos = vitorias + empates
@@ -30,7 +29,7 @@ function footballPoints(wins , ties) {
 }
 // Desafio 6
 function highestCount() {
-  // seu código aqui
+  
 }
 
 // Desafio 7
